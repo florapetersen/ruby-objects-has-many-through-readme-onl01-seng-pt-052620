@@ -1,5 +1,6 @@
 class Customer
-  attr_accessor :name, :age
+  attr_accessor :name, :age #we can change their name and age
+  #would be attr_reader if we wanted that to be read-only
 
   @@all = []
 
